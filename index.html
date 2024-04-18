@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Universal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+    <section id="banner">
+        <div class="banner-text">
+            <h1>Universal</h1>
+            <p>A way to keep your house warmer!</p>
+            <div class="#banner-btn">
+                
+            </div>
+        </div>
+    </section>
+
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="#banner">HOME</a></li>
+                <li><a href="#Features">ABOUT US</a></li>
+                <li><a href="#service">CONTACT US</a></li>
+                <li><a href="#footer">MEET US</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="menuBtn">
+        <img src="photos/menu.png" id="menu">
+    </div>
+    <div>
+    <!--features-->
+    
+    <section id="Features">
+        <div class="title-text">
+            <p>Features</p>
+            <h1>Why chosse us?</h1>
+            </div>
+</div>
+<div class="featurebox">
+    <div class="features">
+        <h1>What we work with</h1>
+        </div>
+        <div class="features-desc">
+            <div class="feature-icon">
+                <div class="feature-text"> 
+                    <p>Our business offers Doors&Windows from PVC, from Salamander,Aluplast and others. We also work with aluminium.</p> 
+                    </div>
+        </div>
+        </div>
+<div class="features-img">
+    <div>
+    <img src="photos/foto20.jpg">
+</div>
+</section>
+<!--service-->
+<section id="service">
+    <div class="title-text">
+        <p>Services</p>
+        <h1>We build better</h1>
+        </div>  
+        <div class="service-box">
+            <div class="single-service"><img src="photos/foto2.jpg">
+            <div class="overlay"></div>
+            </div>
+                <div class="single-service"><img src="photos/foto14.jpg">
+                    <div class="overlay"></div>
+                </div>
+                    <div class="single-service"><img src="photos/foto8.jpg">
+                        <div class="overlay"></div>
+                    </div>
+                        <div class="single-service"><img src="photos/foto7.jpg">
+                            <div class="overlay"></div>
+                        </div>
+                    </div> 
+            </div>
+        </div>   
+</section>
+<section id="footer>">
+    <div class="title-text">
+        <p>CONTACT</p>
+        <h1>Visit us</h1>
+        </div>
+        <div class="footer-row"></div>
+       <div class="footer-left"><h1>Opening Hours</h1></div>
+       <p>Monday to Saturday 09.00-18:00</p>
+       <p>Kosovo, Prishtina Street:Bajram Bahtiri</p>
+       <p>universal-al.lab@hotmail.com</p>
+       <p>+38344406700 or +38344909152</p>
+        </div>
+        <div class="social-links">
+            <p>Copyright Universal</p>
+        </div>
+</section>
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+        var menu = document.getElementById("menu");
+        sideNav.style.right = "-250px";
+
+        menuBtn.onclick = function() {
+            if (sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+            } else {
+                sideNav.style.right = "-250px";
+            }
+        }
+        var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000
+    
+});
+    </script>
+</body>
+</html>
+
